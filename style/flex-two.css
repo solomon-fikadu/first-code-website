@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 320px;
+    border: 0;
+column-gap: 10px;
+row-gap: 10px;
+}
+.x-class{
+    width: 100px;
+    height: 100px;
+    font-family: arial,monospace;
+    font-weight: bold;
+    font-size: 60px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.o-class{
+    width: 100px;
+    height: 100px;
+    font-family: arial,monospace;
+    font-weight: bold;
+    font-size: 60px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.empty-class{
+    width: 100px;
+    height: 100px;
+    font-family: arial,monospace;
+    font-weight: bold;
+    font-size: 60px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

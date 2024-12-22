@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction:  column;
+    row-gap: 4px;
+    
+    
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    column-gap: 10px;
+}
+
+.para-one{
+    display: flex;
+    flex-direction: row;
+    column-gap: 170px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+  
+}
+
+.p2,.p3,.p,.p1{
+    margin: 0;
+
+}
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 4px;
+  
+}
+
+.p1,.p2{
+  font-weight: bold;
+}
+.title,.p,.p3{
+    color: gray;
+}

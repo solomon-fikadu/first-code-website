@@ -1,0 +1,39 @@
+p{
+    font-family: Montserrat;
+
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    width: 250px;
+}
+.sub-title{
+    color:gray;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.description{
+   
+    width: 240px;
+    font-size: 16px;
+}
+.start-button{
+background-color: green;
+  border-radius: 7px;
+  color: white;
+  border: 1px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  text-align: center;
+  margin: none;
+}
+.span-example:hover{
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+

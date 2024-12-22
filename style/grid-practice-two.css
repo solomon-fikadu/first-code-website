@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-template-columns: 110px 110px 100px;
+    grid-template-rows: 110px 110px 100px;
+    border: 0;
+}
+.x-class{
+    background-color: lightblue;
+    font:bold 50px arial,monospace;
+    width: 100px;
+    height: 100px;
+ align-content: center;
+ text-align: center;
+ 
+}
+.o-class{
+    background-color:lightblue;
+    font:bold 50px arial,monospace;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+
+}
+.empty-class{
+    background-color: lightblue;
+    font:bold 50px arial,monospace;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    
+
+    }
+  

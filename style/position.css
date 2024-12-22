@@ -1,0 +1,34 @@
+.container{
+   background-color: white
+    height: 350px;
+    width: 300px;
+    position: relative;
+}
+
+.online-image{
+    width: 100%;
+}
+.right-button{
+    position: absolute;
+right: 0;
+top: 10px;
+background-color:rgb(29, 17, 17);
+color:rgb(253, 246, 246);
+font-family: Montserrat arial monospace;
+}
+.bottom-button-container{
+    position: absolute;
+    bottom: 30;
+    left: 0;
+    right: 0;
+ bottom: 0;
+ height: 100px;
+background-color: rgb(255,255,255,0.8);
+}
+.bottom-button{
+    background-color: white;
+    border: 0;
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+}

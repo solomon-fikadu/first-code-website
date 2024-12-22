@@ -1,0 +1,150 @@
+p{
+    font-family: roboto,arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(96,96,96);
+}
+body{
+    margin-bottom: 2000px;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 95px;
+    padding-right: 24px;
+}
+.grid-div{
+    margin-top: 5px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 15px;
+row-gap: 25px;
+background-color: rgb(248, 248, 248);
+}
+
+
+@media (max-width:800px){
+.grid-div{
+    grid-template-columns: 1fr 1fr;
+}
+}
+@media (min-width:801px) and (max-width:999px){
+    .grid-div{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:1000px){
+    .grid-div{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    } 
+}
+
+
+.div-main{
+width: 100%;
+
+}
+
+.div-two{
+
+    width: 100%;
+    display: grid;
+   grid-template-columns: 80px 1fr;
+   margin-top: 8px;
+   row-gap: 5px;
+
+
+}
+
+
+.picture-one{
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+}
+.picture-two{
+   
+    width: 60px;
+    height:60px;
+    border-radius:60px;
+
+  
+   
+}
+.search-bar{
+    display: block;
+    width: 100px;
+ margin-bottom: 10px;
+    cursor: pointer;
+}
+.video-title{
+font-weight: 500px;
+font-size: 20px;
+margin-bottom: 14px;
+
+}
+.button-one{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    margin-top: 10px;
+    border-color: white;
+    padding-left: 10px;  /*u can use shorthand for padding,margin,font*/
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 8px;
+    bottom: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  border-radius: 2px;
+  font-family: roboto,arial,monospace;
+  font-weight: 500;
+}
+.thumbnail{
+    position: relative;
+}
+.tooltip{
+    display: flex;
+    flex-direction: row;
+column-gap: 45px;
+   border-width: 2px;
+   border-color: black;
+    z-index: 300; /* means this tooltip ont the top of any z-index lessthan 300*/
+}
+.sideimage-tooltip{
+    width: 30px;
+}
+.sidetext-tooltip{
+    width: 1fr;
+}
+.main-sideimage-container{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.main-sideimage-container .tooltip{
+    position: absolute;
+    background-color: white;
+    opacity: 0;                    /* hidden*/
+    pointer-events: none;
+    left: 60px;
+    top: 50px;
+}
+.main-sideimage-container:hover .tooltip{
+opacity: 1;                   /* visible*/
+transition: opacity 0.2s;
+}
+.sidetext-tooltip p{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic; /*font-style font-variant font-weightfont-size/line-height font-family*/
+}

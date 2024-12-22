@@ -1,0 +1,35 @@
+.sidebar{
+    background-color:white;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    width: 72px;
+    justify-content: space-between;
+    z-index: 200;
+    
+}
+.side-div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 80px;
+}
+.side-div:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.sidebar img{
+    width:55%;
+    
+}
+p{
+font-size: 11px;
+font-weight: 500;
+
+}
+.youtube{
+    padding-left: 13px;
+}
